@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLite</string>
+    <string name="queryJugadorUnique">SELECT *, COUNT (*) FROM jugador WHERE nombre=\'</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvJugadores">Lista de jugadores</string>
+    <string name="tvPartidos">Lista de partidos</string>
+    <string name="newJugador">Nuevo Jugador</string>
+    <string name="newPartido">Nuevo Partido</string>
+    <string name="hintNombre">Nombre del jugador</string>
+    <string name="hintTelefono">Telefono de contacto</string>
+    <string name="hintFnac">Fecha de nacimiento</string>
+    <string name="hintValoracion">Valoración</string>
+    <string name="hintContrincante">Contrincate</string>
+    <string name="bt_Alta">ALTA</string>
+    <string name="hintID">ID</string>
+    <string name="btNuevo">Añadir nuevo</string>
+    <string name="Insertado">Jugador insertado correctamente</string>
+    <string name="Existe">El jugador ya existe</string>
+    <string name="queryContrincanteUnique">SELECT *, COUNT (*) FROM partido WHERE contrincante =\'</string>
+    <string name="queryJugadorInsertado">SELECT *, COUNT (*) FROM jugador</string>
+    <string name="InsertadoP">Partido insertado</string>
+    <string name="JugadorNoE">El jugador introducido no existe en la BD</string>
+    <string name="ContrincanteYaE">Ya existe ese contrincante</string>
+    <string name="FaltaJugador">Añadir un jugador primero.</string>
+    <string name="dialogo_mensaje_jugador">Se borrará el jugador y todos sus partidos</string>
+    <string name="dialogo_titulo_jugador">Borrar jugador</string>
+    <string name="dialogo_mensaje_partido">Se borrará el partido</string>
+    <string name="dialogo_titulo_partido">Borrar partido</string>
+    <string name="Daceptar">Aceptar</string>
+    <string name="Dcancelar">Cancelar</string>
+    <string name="NumPartidos">Numero partidos</string>
+
+
+</resources>
